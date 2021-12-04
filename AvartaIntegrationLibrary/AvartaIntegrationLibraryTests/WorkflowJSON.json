@@ -1,0 +1,40 @@
+{
+    "Key": "6477af6e-77ff-4683-8dc4-7816478312ca",
+    "PendingActivities": [
+                          {
+                          "Type":
+                          { "Code": "AUTH", "Name": "Authentication Activity Type" }
+                          ,
+                          "Code": "PASSWORD",
+                          "Name": "Authentication Password Request"
+                          },
+                          {
+                          "Type":
+                          { "Code": "PROCESS", "Name": "Process Activity Type" }
+                          ,
+                          "Code": "SENDPUSHNOTIFICATION",
+                          "Name": "Send Push Notification"
+                          },
+                          {
+                          "Type":
+                          { "Code": "AUTH", "Name": "Authentication Activity Type" }
+                          ,
+                          "Code": "DEVICE",
+                          "Name": "Authentication Device Request"
+                          },
+                          {
+                          "Type":
+                          { "Code": "PROCESS", "Name": "Process Activity Type" }
+                          ,
+                          "Code": "AISWITCH",
+                          "Name": "Authentication AI Switch"
+                          }
+                          ],
+    "Score": 0,
+    "Source": "Postman",
+    "Salt": "KvgP1buQqLCVF+lV0x05BUgmGwTvGp9JiMGFZk/B5F8=",
+    "Status": 0,
+    "DeviceBasedFlag": false,
+    "DateCreated": "2017-11-17T13:56:54.9954431+00:00",
+    "DateUpdated": "2017-11-17T13:56:54.9954431+00:00"
+}

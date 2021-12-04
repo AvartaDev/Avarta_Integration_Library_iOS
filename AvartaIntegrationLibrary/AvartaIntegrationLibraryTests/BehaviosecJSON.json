@@ -1,0 +1,108 @@
+{
+    botDesc = "<null>";
+    confidence = 0;
+    data =     (
+                {
+                botDesc = "<null>";
+                confidence = 0;
+                date = "-62135596800000";
+                device = IOS;
+                deviceChanged = 0;
+                deviceDesc = "<null>";
+                deviceScore = 0;
+                diDesc =             (
+                                      1
+                                      );
+                diError = 0;
+                finalizeTimestamp = 0;
+                finalized = 0;
+                ip = "::1";
+                isBot = 0;
+                isDataCorrupted = 0;
+                isReplay = 0;
+                isTrained = 0;
+                notes = auth;
+                numpadAnomaly = 0;
+                pdDesc =             (
+                                      3
+                                      );
+                pdError = 1;
+                pocAnomaly = 0;
+                policy = Training;
+                policyId = 5;
+                recognitionRatio = "0.3266666666666668";
+                score = "0.5";
+                tabAnomaly = 0;
+                targets =             (
+                                       {
+                                       botDesc = "<null>";
+                                       confidence = "0.8534335170250379";
+                                       diDesc =                     (
+                                                                     1
+                                                                     );
+                                       diError = 0;
+                                       isBot = 0;
+                                       isTrained = 0;
+                                       numpadAnomaly = 0;
+                                       numpadRatio = 0;
+                                       numpadUsed = 0;
+                                       pdDesc =                     (
+                                                                     3
+                                                                     );
+                                       pdError = 1;
+                                       pocAnomaly = 0;
+                                       pocRatio = 0;
+                                       pocUsed = 0;
+                                       recognitionRatio = "0.3266666666666668";
+                                       score = "0.000019400855225948393";
+                                       tabAnomaly = 0;
+                                       tabRatio = 0;
+                                       tabUsed = 0;
+                                       target = Password;
+                                       training = 3;
+                                       type = f;
+                                       updates = 2;
+                                       }
+                                       );
+                useragent = "SOLUSIntegrationLibrary:1.0.1.1/iPhone 6S";
+                }
+                );
+    deviceChanged = 0;
+    deviceDesc = "<null>";
+    deviceScore = 0;
+    diDesc =     (
+                  1
+                  );
+    diError = 0;
+    endDate = "0001-01-03T00:00+0000";
+    endTimestamp = "-62135596800000";
+    finalizeNotes = 0;
+    finalizeTimestamp = 0;
+    finalized = 0;
+    ipChanged = 0;
+    ipSeverity = 0;
+    isBot = 0;
+    isDataCorrupted = 0;
+    isReplay = 0;
+    isSessionCorrupted = 0;
+    isSessionCorruptedDesc = "<null>";
+    isTrained = 0;
+    isWhitelisted = 0;
+    numpadAnomaly = 0;
+    pdDesc =     (
+                  3
+                  );
+    pdError = 1;
+    pocAnomaly = 0;
+    policy = Training;
+    policyId = 5;
+    recognitionRatio = "0.3266666666666668";
+    score = "0.5";
+    sessionId = "84.31212";
+    startDate = "0001-01-03T00:00+0000";
+    startTimestamp = "-62135596800000";
+    tabAnomaly = 0;
+    uiConfidence = "-1";
+    uiScore = "-1";
+    userid = "yoshio.wade";
+}

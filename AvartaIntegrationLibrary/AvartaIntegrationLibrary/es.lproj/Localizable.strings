@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  AvartaIntegrationLibrary
+
+  Created by Dmitrii Babii on 23.03.18.
+  Copyright © 2018 Dmitrii Babii. All rights reserved.
+*/
+
+"Avarta.pass.change.err" = "El cambio de contraseña falló.";
+"Avarta.not.enrolled.device.err" = "Usuario no inscrito en este dispositivo. Desinscríbase en el sitio web antes de inscribirse en este dispositivo.";
+"Avarta.not.enrolled.err" = "No inscrito";
+"Avarta.wrong.password.err" = "Contraseña incorrecta";
+"Avarta.not.verified.err" = "No verificado";
+"Avarta.org.record.err" = "Registro de organización no encontrado.";
+"Avarta.user.not.found.err" = "Registro de usuario no encontrado.";
+"Avarta.user.not.assoc.err" = "Usuario no asociado con la organización.";
+"Avarta.workflow.not.assoc.err" = "Workflow no asociado con la organización.";
+"Avarta.platform.workflow.not.found.err" = "Workflow de plataforma no encontrada.";
+"Avarta.platform.workflow.not.complete.err" = "Workflow de plataforma no completa.";
+"Avarta.platform.activity.type.err" = "Tipo de actividad de plataforma inválida.";
+"Avarta.no.workflows.found.err" = "No se encontraron workflows para la organización.";
+"Avarta.missing.org.header.err" = "Encabezado de organización faltante";
+"Avarta.attempt.sec.workflow.err" = "Intento de iniciar el workflow secundario.";
+"Avarta.bad.request.err" = "Solicitud incorrecta.";
+"Avarta.no.auth.request.err" = "¡Error! Sin solicitud de autenticación";
+"Avarta.no.enroll.request.err" = "¡Error! Sin solicitud de inscripción";
+"Avarta.acc.locked.err" = "La cuenta de usuario está bloqueada ..";
+"Avarta.mafromed.activity.data.err" = "Error en los de datos de la actividad.";
+"Avarta.user.not.enrolled.data.err" = "El usuario no está inscrito.";
+"Avarta.scores.err" = "No se pueden calcular las puntuaciones, no se inició el workflow";
+"Avarta.user.not.found.err" = "Usuario %@ no encontrado";

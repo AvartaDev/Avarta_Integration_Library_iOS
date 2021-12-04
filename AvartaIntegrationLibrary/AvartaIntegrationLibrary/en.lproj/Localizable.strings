@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  AvartaIntegrationLibrary
+
+  Created by Dmitrii Babii on 23.03.18.
+  Copyright © 2018 Dmitrii Babii. All rights reserved.
+*/
+
+"Avarta.pass.change.err" = "The password change process failed.";
+"Avarta.not.enrolled.device.err" = "User not enrolled on this device. Please de-enroll on the website before enrolling on this device.";
+"Avarta.not.enrolled.err" = "Sorry. Not Enrolled";
+"Avarta.wrong.password.err" = "Sorry. Wrong Password";
+"Avarta.not.verified.err" = "Sorry. Not Verified";
+"Avarta.org.record.err" = "Organisation Record Not Found.";
+"Avarta.user.not.found.err" = "User Record Not Found.";
+"Avarta.user.not.assoc.err" = "User Not Associated with Organisation.";
+"Avarta.workflow.not.assoc.err" = "Workflow Not Associated with Organisation.";
+"Avarta.platform.workflow.not.found.err" = "Platform Workflow Instance Not Found.";
+"Avarta.platform.workflow.not.complete.err" = "Platform Workflow Instance Not Complete.";
+"Avarta.platform.activity.type.err" = "Invalid Platform Activity Type.";
+"Avarta.no.workflows.found.err" = "No Workflows Found For Organisation.";
+"Avarta.missing.org.header.err" = "Missing Organisation Header.";
+"Avarta.attempt.sec.workflow.err" = "Attempt To Launch Secondary Workflow.";
+"Avarta.bad.request.err" = "Bad Request.";
+"Avarta.no.auth.request.err" = "Error! No authentication request";
+"Avarta.no.enroll.request.err" = "Error! No enroll request";
+"Avarta.acc.locked.err" = "The user account is locked..";
+"Avarta.mafromed.activity.data.err" = "Malformed Activity Data  Exception.";
+"Avarta.user.not.enrolled.data.err" = "User Is Not Enrolled.";
+"Avarta.scores.err" = "Can't calculate scores, workflow didn't started";
+"Avarta.user.not.found.err" = "User %@ not found";

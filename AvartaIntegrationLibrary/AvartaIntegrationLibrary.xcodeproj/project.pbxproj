@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2854381020659CA30045EDB6 /* AvartaIntegrationLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2854380E20659CA30045EDB6 /* AvartaIntegrationLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2854381120659CA30045EDB6 /* AvartaIntegrationLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854380F20659CA30045EDB6 /* AvartaIntegrationLibrary.m */; };
+		2854381420659DAF0045EDB6 /* AvartaLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854381220659DAE0045EDB6 /* AvartaLocationManager.m */; };
+		2854381520659DAF0045EDB6 /* AvartaLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2854381320659DAF0045EDB6 /* AvartaLocationManager.h */; };
+		2854381820659E020045EDB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2854381A20659E020045EDB6 /* Localizable.strings */; };
+		2884628D1FE283C600D2EAD2 /* IntegrationLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2884628B1FE283C600D2EAD2 /* IntegrationLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288462C51FE2844A00D2EAD2 /* AvartaLibraryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462931FE2844300D2EAD2 /* AvartaLibraryHelper.m */; };
+		288462C61FE2844A00D2EAD2 /* AvartaCryptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462941FE2844300D2EAD2 /* AvartaCryptModel.m */; };
+		288462C71FE2844A00D2EAD2 /* AvartaLibrarySettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462951FE2844300D2EAD2 /* AvartaLibrarySettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288462C81FE2844A00D2EAD2 /* AvartaActivities.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462961FE2844300D2EAD2 /* AvartaActivities.h */; };
+		288462C91FE2844A00D2EAD2 /* AvartaAppVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462971FE2844300D2EAD2 /* AvartaAppVersionManager.h */; };
+		288462CA1FE2844A00D2EAD2 /* AvartaBehaviosecMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462981FE2844300D2EAD2 /* AvartaBehaviosecMapping.h */; };
+		288462CB1FE2844A00D2EAD2 /* AvartaLibrarySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462991FE2844300D2EAD2 /* AvartaLibrarySettings.m */; };
+		288462CC1FE2844A00D2EAD2 /* AvartaSettingsWorkflowItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2884629A1FE2844300D2EAD2 /* AvartaSettingsWorkflowItem.h */; };
+		288462CD1FE2844A00D2EAD2 /* AvartaLicenseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884629B1FE2844300D2EAD2 /* AvartaLicenseProvider.m */; };
+		288462CE1FE2844A00D2EAD2 /* AvartaFlowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2884629C1FE2844400D2EAD2 /* AvartaFlowModel.h */; };
+		288462CF1FE2844A00D2EAD2 /* AvartaInternalConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2884629D1FE2844400D2EAD2 /* AvartaInternalConstants.h */; };
+		288462D01FE2844A00D2EAD2 /* AvartaSettingsWorkflowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884629E1FE2844400D2EAD2 /* AvartaSettingsWorkflowItem.m */; };
+		288462D11FE2844A00D2EAD2 /* AvartaWorkflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884629F1FE2844400D2EAD2 /* AvartaWorkflow.m */; };
+		288462D21FE2844A00D2EAD2 /* AvartaFlowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462A01FE2844400D2EAD2 /* AvartaFlowModel.m */; };
+		288462D31FE2844A00D2EAD2 /* AvartaDeviceConfigurationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462A11FE2844400D2EAD2 /* AvartaDeviceConfigurationModel.h */; };
+		288462D41FE2844A00D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462A21FE2844400D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.m */; };
+		288462D51FE2844A00D2EAD2 /* AvartaSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462A31FE2844400D2EAD2 /* AvartaSettingsManager.m */; };
+		288462D61FE2844A00D2EAD2 /* AvartaActivityType.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462A41FE2844400D2EAD2 /* AvartaActivityType.h */; };
+		288462D71FE2844A00D2EAD2 /* AvartaInAuthIntegrationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462A51FE2844400D2EAD2 /* AvartaInAuthIntegrationManager.h */; };
+		288462D81FE2844A00D2EAD2 /* AvartaSettingLicenseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462A61FE2844400D2EAD2 /* AvartaSettingLicenseItem.h */; };
+		288462D91FE2844A00D2EAD2 /* AvartaInAuthIntegrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462A71FE2844400D2EAD2 /* AvartaInAuthIntegrationManager.m */; };
+		288462DA1FE2844A00D2EAD2 /* AvartaActivityType.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462A81FE2844400D2EAD2 /* AvartaActivityType.m */; };
+		288462DB1FE2844A00D2EAD2 /* AvartaAppVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462A91FE2844500D2EAD2 /* AvartaAppVersionManager.m */; };
+		288462DC1FE2844A00D2EAD2 /* AvartaUserScoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462AA1FE2844500D2EAD2 /* AvartaUserScoreManager.h */; };
+		288462DD1FE2844A00D2EAD2 /* AvartaBehaviosecMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462AB1FE2844500D2EAD2 /* AvartaBehaviosecMapping.m */; };
+		288462DE1FE2844A00D2EAD2 /* AvartaSettingLicenseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462AC1FE2844500D2EAD2 /* AvartaSettingLicenseItem.m */; };
+		288462DF1FE2844A00D2EAD2 /* AvartaUserScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462AD1FE2844500D2EAD2 /* AvartaUserScoreModel.m */; };
+		288462E01FE2844A00D2EAD2 /* AvartaInternalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462AE1FE2844500D2EAD2 /* AvartaInternalConstants.m */; };
+		288462E11FE2844A00D2EAD2 /* AvartaLibraryHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462AF1FE2844500D2EAD2 /* AvartaLibraryHelper.h */; };
+		288462E21FE2844A00D2EAD2 /* AvartaSettingsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462B01FE2844500D2EAD2 /* AvartaSettingsManager.h */; };
+		288462E31FE2844A00D2EAD2 /* AvartaLicenseProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462B11FE2844600D2EAD2 /* AvartaLicenseProvider.h */; };
+		288462E41FE2844A00D2EAD2 /* AvartaActivities.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462B21FE2844600D2EAD2 /* AvartaActivities.m */; };
+		288462E51FE2844A00D2EAD2 /* AvartaLicenseOperatingSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462B31FE2844600D2EAD2 /* AvartaLicenseOperatingSystem.h */; };
+		288462E61FE2844A00D2EAD2 /* AvartaBehaviosecData.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462B41FE2844600D2EAD2 /* AvartaBehaviosecData.h */; };
+		288462E71FE2844A00D2EAD2 /* AvartaCryptModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462B51FE2844600D2EAD2 /* AvartaCryptModel.h */; };
+		288462E81FE2844A00D2EAD2 /* AvartaBehaviosecData.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462B61FE2844700D2EAD2 /* AvartaBehaviosecData.m */; };
+		288462E91FE2844A00D2EAD2 /* AvartaBehaviosecTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462B71FE2844700D2EAD2 /* AvartaBehaviosecTarget.m */; };
+		288462EA1FE2844A00D2EAD2 /* AvartaErrorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462B81FE2844700D2EAD2 /* AvartaErrorManager.h */; };
+		288462EC1FE2844A00D2EAD2 /* AvartaUserScoreModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462BA1FE2844700D2EAD2 /* AvartaUserScoreModel.h */; };
+		288462ED1FE2844A00D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462BB1FE2844800D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.h */; };
+		288462EE1FE2844A00D2EAD2 /* HTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462BC1FE2844800D2EAD2 /* HTTPSessionManager.h */; };
+		288462F01FE2844A00D2EAD2 /* AvartaLicenseOperatingSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462BE1FE2844800D2EAD2 /* AvartaLicenseOperatingSystem.m */; };
+		288462F11FE2844A00D2EAD2 /* AvartaErrorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462BF1FE2844900D2EAD2 /* AvartaErrorManager.m */; };
+		288462F21FE2844A00D2EAD2 /* AvartaDeviceConfigurationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462C01FE2844900D2EAD2 /* AvartaDeviceConfigurationModel.m */; };
+		288462F31FE2844A00D2EAD2 /* AvartaBehaviosecTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462C11FE2844900D2EAD2 /* AvartaBehaviosecTarget.h */; };
+		288462F41FE2844A00D2EAD2 /* HTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462C21FE2844900D2EAD2 /* HTTPSessionManager.m */; };
+		288462F51FE2844A00D2EAD2 /* AvartaUserScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462C31FE2844900D2EAD2 /* AvartaUserScoreManager.m */; };
+		288462F61FE2844A00D2EAD2 /* AvartaWorkflow.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462C41FE2844A00D2EAD2 /* AvartaWorkflow.h */; };
+		288462FA1FE284EB00D2EAD2 /* AvartaNetworkRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 288462F81FE284EB00D2EAD2 /* AvartaNetworkRequestManager.h */; };
+		288462FB1FE284EB00D2EAD2 /* AvartaNetworkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 288462F91FE284EB00D2EAD2 /* AvartaNetworkRequestManager.m */; };
+		288463041FE2864300D2EAD2 /* BaseMappingObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 288463011FE2864300D2EAD2 /* BaseMappingObject.h */; };
+		288463051FE2864300D2EAD2 /* BaseMappingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 288463021FE2864300D2EAD2 /* BaseMappingObject.m */; };
+		288463061FE2864300D2EAD2 /* MappingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 288463031FE2864300D2EAD2 /* MappingProtocol.h */; };
+		2884630A1FE2870900D2EAD2 /* AvartaAppSettingsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 288463081FE2870900D2EAD2 /* AvartaAppSettingsModel.h */; };
+		2884630B1FE2870900D2EAD2 /* AvartaAppSettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288463091FE2870900D2EAD2 /* AvartaAppSettingsModel.m */; };
+		288463151FE28C6200D2EAD2 /* AvartaIntegrationLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288462881FE283C600D2EAD2 /* AvartaIntegrationLibrary.framework */; };
+		288463241FE28CC100D2EAD2 /* AvartaErrorManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884631B1FE28CC100D2EAD2 /* AvartaErrorManagerTest.m */; };
+		288463251FE28CC100D2EAD2 /* IntegrationLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884631C1FE28CC100D2EAD2 /* IntegrationLibraryTests.m */; };
+		288463261FE28CC100D2EAD2 /* BehaviosecJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2884631D1FE28CC100D2EAD2 /* BehaviosecJSON.json */; };
+		288463271FE28CC100D2EAD2 /* AvartaFlowModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884631E1FE28CC100D2EAD2 /* AvartaFlowModelTest.m */; };
+		288463281FE28CC100D2EAD2 /* AppSettingsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2884631F1FE28CC100D2EAD2 /* AppSettingsJSON.json */; };
+		288463291FE28CC100D2EAD2 /* WorkflowJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 288463201FE28CC100D2EAD2 /* WorkflowJSON.json */; };
+		2884632A1FE28CC100D2EAD2 /* AvartaWorkflowModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 288463211FE28CC100D2EAD2 /* AvartaWorkflowModelTest.m */; };
+		2884632B1FE28CC100D2EAD2 /* AvartaSettingsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 288463221FE28CC100D2EAD2 /* AvartaSettingsManagerTest.m */; };
+		2884632C1FE28CC100D2EAD2 /* AvartaBehaviosecMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 288463231FE28CC100D2EAD2 /* AvartaBehaviosecMappingTest.m */; };
+		720FA21026933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 720FA20E26933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.h */; };
+		720FA21126933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 720FA20F26933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.m */; };
+		725DF08B270AD2360070EBBD /* Bugsnag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725DF08A270AD2360070EBBD /* Bugsnag.framework */; };
+		725DF08D270AD2640070EBBD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725DF08C270AD2640070EBBD /* SystemConfiguration.framework */; };
+		725DF08F270AD2880070EBBD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 725DF08E270AD2880070EBBD /* libz.tbd */; };
+		725DF091270AD29C0070EBBD /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 725DF090270AD29C0070EBBD /* libc.tbd */; };
+		726659B12754B0DE002127EB /* AvartaIntegrationLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 726659B02754B0DE002127EB /* AvartaIntegrationLibraryTests.m */; };
+		7D0306372241F5DA00C9FA37 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0306362241F5DA00C9FA37 /* libxml2.tbd */; };
+		7D2D175A22B9FC6F00A32BD7 /* _25519.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE5B79F227AD2F800EE5363 /* _25519.framework */; };
+		7DA27E492271962200FC566A /* ECEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA27E472271962200FC566A /* ECEncryption.h */; };
+		7DA27E4A2271962200FC566A /* ECEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA27E482271962200FC566A /* ECEncryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288463161FE28C6200D2EAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2884627F1FE283C600D2EAD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288462871FE283C600D2EAD2;
+			remoteInfo = AvartaIntegrationLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2854380E20659CA30045EDB6 /* AvartaIntegrationLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaIntegrationLibrary.h; sourceTree = "<group>"; };
+		2854380F20659CA30045EDB6 /* AvartaIntegrationLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaIntegrationLibrary.m; sourceTree = "<group>"; };
+		2854381220659DAE0045EDB6 /* AvartaLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaLocationManager.m; sourceTree = "<group>"; };
+		2854381320659DAF0045EDB6 /* AvartaLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaLocationManager.h; sourceTree = "<group>"; };
+		2854381920659E020045EDB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2854381B20659E0E0045EDB6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2854381C20659E140045EDB6 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2854381D20659E190045EDB6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2854381E2065A1A70045EDB6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		288462881FE283C600D2EAD2 /* AvartaIntegrationLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AvartaIntegrationLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2884628B1FE283C600D2EAD2 /* IntegrationLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegrationLibrary.h; sourceTree = "<group>"; };
+		2884628C1FE283C600D2EAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288462931FE2844300D2EAD2 /* AvartaLibraryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaLibraryHelper.m; sourceTree = "<group>"; };
+		288462941FE2844300D2EAD2 /* AvartaCryptModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaCryptModel.m; sourceTree = "<group>"; };
+		288462951FE2844300D2EAD2 /* AvartaLibrarySettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaLibrarySettings.h; sourceTree = "<group>"; };
+		288462961FE2844300D2EAD2 /* AvartaActivities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaActivities.h; sourceTree = "<group>"; };
+		288462971FE2844300D2EAD2 /* AvartaAppVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaAppVersionManager.h; sourceTree = "<group>"; };
+		288462981FE2844300D2EAD2 /* AvartaBehaviosecMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaBehaviosecMapping.h; sourceTree = "<group>"; };
+		288462991FE2844300D2EAD2 /* AvartaLibrarySettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaLibrarySettings.m; sourceTree = "<group>"; };
+		2884629A1FE2844300D2EAD2 /* AvartaSettingsWorkflowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaSettingsWorkflowItem.h; sourceTree = "<group>"; };
+		2884629B1FE2844300D2EAD2 /* AvartaLicenseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaLicenseProvider.m; sourceTree = "<group>"; };
+		2884629C1FE2844400D2EAD2 /* AvartaFlowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaFlowModel.h; sourceTree = "<group>"; };
+		2884629D1FE2844400D2EAD2 /* AvartaInternalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaInternalConstants.h; sourceTree = "<group>"; };
+		2884629E1FE2844400D2EAD2 /* AvartaSettingsWorkflowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaSettingsWorkflowItem.m; sourceTree = "<group>"; };
+		2884629F1FE2844400D2EAD2 /* AvartaWorkflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaWorkflow.m; sourceTree = "<group>"; };
+		288462A01FE2844400D2EAD2 /* AvartaFlowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaFlowModel.m; sourceTree = "<group>"; };
+		288462A11FE2844400D2EAD2 /* AvartaDeviceConfigurationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaDeviceConfigurationModel.h; sourceTree = "<group>"; };
+		288462A21FE2844400D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AvartaAppSettingsModel+AvartaLibrarySettings.m"; sourceTree = "<group>"; };
+		288462A31FE2844400D2EAD2 /* AvartaSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaSettingsManager.m; sourceTree = "<group>"; };
+		288462A41FE2844400D2EAD2 /* AvartaActivityType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaActivityType.h; sourceTree = "<group>"; };
+		288462A51FE2844400D2EAD2 /* AvartaInAuthIntegrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaInAuthIntegrationManager.h; sourceTree = "<group>"; };
+		288462A61FE2844400D2EAD2 /* AvartaSettingLicenseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaSettingLicenseItem.h; sourceTree = "<group>"; };
+		288462A71FE2844400D2EAD2 /* AvartaInAuthIntegrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaInAuthIntegrationManager.m; sourceTree = "<group>"; };
+		288462A81FE2844400D2EAD2 /* AvartaActivityType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaActivityType.m; sourceTree = "<group>"; };
+		288462A91FE2844500D2EAD2 /* AvartaAppVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaAppVersionManager.m; sourceTree = "<group>"; };
+		288462AA1FE2844500D2EAD2 /* AvartaUserScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaUserScoreManager.h; sourceTree = "<group>"; };
+		288462AB1FE2844500D2EAD2 /* AvartaBehaviosecMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaBehaviosecMapping.m; sourceTree = "<group>"; };
+		288462AC1FE2844500D2EAD2 /* AvartaSettingLicenseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaSettingLicenseItem.m; sourceTree = "<group>"; };
+		288462AD1FE2844500D2EAD2 /* AvartaUserScoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaUserScoreModel.m; sourceTree = "<group>"; };
+		288462AE1FE2844500D2EAD2 /* AvartaInternalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaInternalConstants.m; sourceTree = "<group>"; };
+		288462AF1FE2844500D2EAD2 /* AvartaLibraryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaLibraryHelper.h; sourceTree = "<group>"; };
+		288462B01FE2844500D2EAD2 /* AvartaSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaSettingsManager.h; sourceTree = "<group>"; };
+		288462B11FE2844600D2EAD2 /* AvartaLicenseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaLicenseProvider.h; sourceTree = "<group>"; };
+		288462B21FE2844600D2EAD2 /* AvartaActivities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaActivities.m; sourceTree = "<group>"; };
+		288462B31FE2844600D2EAD2 /* AvartaLicenseOperatingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaLicenseOperatingSystem.h; sourceTree = "<group>"; };
+		288462B41FE2844600D2EAD2 /* AvartaBehaviosecData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaBehaviosecData.h; sourceTree = "<group>"; };
+		288462B51FE2844600D2EAD2 /* AvartaCryptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaCryptModel.h; sourceTree = "<group>"; };
+		288462B61FE2844700D2EAD2 /* AvartaBehaviosecData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaBehaviosecData.m; sourceTree = "<group>"; };
+		288462B71FE2844700D2EAD2 /* AvartaBehaviosecTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaBehaviosecTarget.m; sourceTree = "<group>"; };
+		288462B81FE2844700D2EAD2 /* AvartaErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaErrorManager.h; sourceTree = "<group>"; };
+		288462BA1FE2844700D2EAD2 /* AvartaUserScoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaUserScoreModel.h; sourceTree = "<group>"; };
+		288462BB1FE2844800D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AvartaAppSettingsModel+AvartaLibrarySettings.h"; sourceTree = "<group>"; };
+		288462BC1FE2844800D2EAD2 /* HTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPSessionManager.h; sourceTree = "<group>"; };
+		288462BE1FE2844800D2EAD2 /* AvartaLicenseOperatingSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaLicenseOperatingSystem.m; sourceTree = "<group>"; };
+		288462BF1FE2844900D2EAD2 /* AvartaErrorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaErrorManager.m; sourceTree = "<group>"; };
+		288462C01FE2844900D2EAD2 /* AvartaDeviceConfigurationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaDeviceConfigurationModel.m; sourceTree = "<group>"; };
+		288462C11FE2844900D2EAD2 /* AvartaBehaviosecTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaBehaviosecTarget.h; sourceTree = "<group>"; };
+		288462C21FE2844900D2EAD2 /* HTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSessionManager.m; sourceTree = "<group>"; };
+		288462C31FE2844900D2EAD2 /* AvartaUserScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaUserScoreManager.m; sourceTree = "<group>"; };
+		288462C41FE2844A00D2EAD2 /* AvartaWorkflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaWorkflow.h; sourceTree = "<group>"; };
+		288462F81FE284EB00D2EAD2 /* AvartaNetworkRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaNetworkRequestManager.h; sourceTree = "<group>"; };
+		288462F91FE284EB00D2EAD2 /* AvartaNetworkRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaNetworkRequestManager.m; sourceTree = "<group>"; };
+		288463011FE2864300D2EAD2 /* BaseMappingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMappingObject.h; sourceTree = "<group>"; };
+		288463021FE2864300D2EAD2 /* BaseMappingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMappingObject.m; sourceTree = "<group>"; };
+		288463031FE2864300D2EAD2 /* MappingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProtocol.h; sourceTree = "<group>"; };
+		288463081FE2870900D2EAD2 /* AvartaAppSettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvartaAppSettingsModel.h; sourceTree = "<group>"; };
+		288463091FE2870900D2EAD2 /* AvartaAppSettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaAppSettingsModel.m; sourceTree = "<group>"; };
+		288463101FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvartaIntegrationLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288463141FE28C6200D2EAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2884631B1FE28CC100D2EAD2 /* AvartaErrorManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaErrorManagerTest.m; sourceTree = "<group>"; };
+		2884631C1FE28CC100D2EAD2 /* IntegrationLibraryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationLibraryTests.m; sourceTree = "<group>"; };
+		2884631D1FE28CC100D2EAD2 /* BehaviosecJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BehaviosecJSON.json; sourceTree = "<group>"; };
+		2884631E1FE28CC100D2EAD2 /* AvartaFlowModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaFlowModelTest.m; sourceTree = "<group>"; };
+		2884631F1FE28CC100D2EAD2 /* AppSettingsJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppSettingsJSON.json; sourceTree = "<group>"; };
+		288463201FE28CC100D2EAD2 /* WorkflowJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WorkflowJSON.json; sourceTree = "<group>"; };
+		288463211FE28CC100D2EAD2 /* AvartaWorkflowModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaWorkflowModelTest.m; sourceTree = "<group>"; };
+		288463221FE28CC100D2EAD2 /* AvartaSettingsManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaSettingsManagerTest.m; sourceTree = "<group>"; };
+		288463231FE28CC100D2EAD2 /* AvartaBehaviosecMappingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaBehaviosecMappingTest.m; sourceTree = "<group>"; };
+		720FA20E26933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+SynchronousEvaluateJavaScript.h"; sourceTree = "<group>"; };
+		720FA20F26933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SynchronousEvaluateJavaScript.m"; sourceTree = "<group>"; };
+		725DF08A270AD2360070EBBD /* Bugsnag.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugsnag.framework; sourceTree = "<group>"; };
+		725DF08C270AD2640070EBBD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		725DF08E270AD2880070EBBD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		725DF090270AD29C0070EBBD /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libc.tbd; sourceTree = DEVELOPER_DIR; };
+		726659B02754B0DE002127EB /* AvartaIntegrationLibraryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvartaIntegrationLibraryTests.m; sourceTree = "<group>"; };
+		7D0306362241F5DA00C9FA37 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		7DA27E472271962200FC566A /* ECEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECEncryption.h; sourceTree = "<group>"; };
+		7DA27E482271962200FC566A /* ECEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECEncryption.m; sourceTree = "<group>"; };
+		7DE5B79F227AD2F800EE5363 /* _25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = _25519.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288462841FE283C600D2EAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725DF091270AD29C0070EBBD /* libc.tbd in Frameworks */,
+				725DF08F270AD2880070EBBD /* libz.tbd in Frameworks */,
+				725DF08D270AD2640070EBBD /* SystemConfiguration.framework in Frameworks */,
+				7D2D175A22B9FC6F00A32BD7 /* _25519.framework in Frameworks */,
+				7D0306372241F5DA00C9FA37 /* libxml2.tbd in Frameworks */,
+				725DF08B270AD2360070EBBD /* Bugsnag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884630D1FE28C6200D2EAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288463151FE28C6200D2EAD2 /* AvartaIntegrationLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2884627E1FE283C600D2EAD2 = {
+			isa = PBXGroup;
+			children = (
+				725DF08A270AD2360070EBBD /* Bugsnag.framework */,
+				7DE5B79F227AD2F800EE5363 /* _25519.framework */,
+				2884628A1FE283C600D2EAD2 /* AvartaIntegrationLibrary */,
+				288463111FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests */,
+				288462891FE283C600D2EAD2 /* Products */,
+				7D0306352241F5D900C9FA37 /* Frameworks */,
+				CC3EF5CB165D92414BF667CD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		288462891FE283C600D2EAD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288462881FE283C600D2EAD2 /* AvartaIntegrationLibrary.framework */,
+				288463101FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2884628A1FE283C600D2EAD2 /* AvartaIntegrationLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				288463001FE2858C00D2EAD2 /* Mappings */,
+				288462FF1FE2858100D2EAD2 /* Helper */,
+				288462FE1FE2857B00D2EAD2 /* Models */,
+				2884628B1FE283C600D2EAD2 /* IntegrationLibrary.h */,
+				2854381A20659E020045EDB6 /* Localizable.strings */,
+				2884628C1FE283C600D2EAD2 /* Info.plist */,
+				288462FC1FE2850400D2EAD2 /* Network */,
+				288462F71FE2848400D2EAD2 /* Categories */,
+				288462FD1FE2854C00D2EAD2 /* Managers */,
+				288463071FE2867200D2EAD2 /* Interface */,
+				2854381E2065A1A70045EDB6 /* PrefixHeader.pch */,
+			);
+			path = AvartaIntegrationLibrary;
+			sourceTree = "<group>";
+		};
+		288462F71FE2848400D2EAD2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				288462BB1FE2844800D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.h */,
+				288462A21FE2844400D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		288462FC1FE2850400D2EAD2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				288462BC1FE2844800D2EAD2 /* HTTPSessionManager.h */,
+				288462C21FE2844900D2EAD2 /* HTTPSessionManager.m */,
+				288462F81FE284EB00D2EAD2 /* AvartaNetworkRequestManager.h */,
+				288462F91FE284EB00D2EAD2 /* AvartaNetworkRequestManager.m */,
+				7DA27E472271962200FC566A /* ECEncryption.h */,
+				7DA27E482271962200FC566A /* ECEncryption.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		288462FD1FE2854C00D2EAD2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2854381320659DAF0045EDB6 /* AvartaLocationManager.h */,
+				2854381220659DAE0045EDB6 /* AvartaLocationManager.m */,
+				288462B81FE2844700D2EAD2 /* AvartaErrorManager.h */,
+				288462BF1FE2844900D2EAD2 /* AvartaErrorManager.m */,
+				288462971FE2844300D2EAD2 /* AvartaAppVersionManager.h */,
+				288462A91FE2844500D2EAD2 /* AvartaAppVersionManager.m */,
+				288462A51FE2844400D2EAD2 /* AvartaInAuthIntegrationManager.h */,
+				288462A71FE2844400D2EAD2 /* AvartaInAuthIntegrationManager.m */,
+				288462B01FE2844500D2EAD2 /* AvartaSettingsManager.h */,
+				288462A31FE2844400D2EAD2 /* AvartaSettingsManager.m */,
+				288462AA1FE2844500D2EAD2 /* AvartaUserScoreManager.h */,
+				288462C31FE2844900D2EAD2 /* AvartaUserScoreManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		288462FE1FE2857B00D2EAD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				288463081FE2870900D2EAD2 /* AvartaAppSettingsModel.h */,
+				288463091FE2870900D2EAD2 /* AvartaAppSettingsModel.m */,
+				2884629C1FE2844400D2EAD2 /* AvartaFlowModel.h */,
+				288462A01FE2844400D2EAD2 /* AvartaFlowModel.m */,
+				288462B51FE2844600D2EAD2 /* AvartaCryptModel.h */,
+				288462941FE2844300D2EAD2 /* AvartaCryptModel.m */,
+				720FA20E26933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.h */,
+				720FA20F26933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		288462FF1FE2858100D2EAD2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2884629D1FE2844400D2EAD2 /* AvartaInternalConstants.h */,
+				288462AE1FE2844500D2EAD2 /* AvartaInternalConstants.m */,
+				288462AF1FE2844500D2EAD2 /* AvartaLibraryHelper.h */,
+				288462931FE2844300D2EAD2 /* AvartaLibraryHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		288463001FE2858C00D2EAD2 /* Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				288463011FE2864300D2EAD2 /* BaseMappingObject.h */,
+				288463021FE2864300D2EAD2 /* BaseMappingObject.m */,
+				288463031FE2864300D2EAD2 /* MappingProtocol.h */,
+				288462961FE2844300D2EAD2 /* AvartaActivities.h */,
+				288462B21FE2844600D2EAD2 /* AvartaActivities.m */,
+				288462A41FE2844400D2EAD2 /* AvartaActivityType.h */,
+				288462A81FE2844400D2EAD2 /* AvartaActivityType.m */,
+				288462B31FE2844600D2EAD2 /* AvartaLicenseOperatingSystem.h */,
+				288462BE1FE2844800D2EAD2 /* AvartaLicenseOperatingSystem.m */,
+				288462B11FE2844600D2EAD2 /* AvartaLicenseProvider.h */,
+				2884629B1FE2844300D2EAD2 /* AvartaLicenseProvider.m */,
+				288462A61FE2844400D2EAD2 /* AvartaSettingLicenseItem.h */,
+				288462AC1FE2844500D2EAD2 /* AvartaSettingLicenseItem.m */,
+				2884629A1FE2844300D2EAD2 /* AvartaSettingsWorkflowItem.h */,
+				2884629E1FE2844400D2EAD2 /* AvartaSettingsWorkflowItem.m */,
+				288462BA1FE2844700D2EAD2 /* AvartaUserScoreModel.h */,
+				288462AD1FE2844500D2EAD2 /* AvartaUserScoreModel.m */,
+				288462C41FE2844A00D2EAD2 /* AvartaWorkflow.h */,
+				2884629F1FE2844400D2EAD2 /* AvartaWorkflow.m */,
+				288462B41FE2844600D2EAD2 /* AvartaBehaviosecData.h */,
+				288462B61FE2844700D2EAD2 /* AvartaBehaviosecData.m */,
+				288462981FE2844300D2EAD2 /* AvartaBehaviosecMapping.h */,
+				288462AB1FE2844500D2EAD2 /* AvartaBehaviosecMapping.m */,
+				288462C11FE2844900D2EAD2 /* AvartaBehaviosecTarget.h */,
+				288462B71FE2844700D2EAD2 /* AvartaBehaviosecTarget.m */,
+				288462A11FE2844400D2EAD2 /* AvartaDeviceConfigurationModel.h */,
+				288462C01FE2844900D2EAD2 /* AvartaDeviceConfigurationModel.m */,
+			);
+			path = Mappings;
+			sourceTree = "<group>";
+		};
+		288463071FE2867200D2EAD2 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2854380E20659CA30045EDB6 /* AvartaIntegrationLibrary.h */,
+				2854380F20659CA30045EDB6 /* AvartaIntegrationLibrary.m */,
+				288462951FE2844300D2EAD2 /* AvartaLibrarySettings.h */,
+				288462991FE2844300D2EAD2 /* AvartaLibrarySettings.m */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		288463111FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				2884631F1FE28CC100D2EAD2 /* AppSettingsJSON.json */,
+				2884631D1FE28CC100D2EAD2 /* BehaviosecJSON.json */,
+				2884631C1FE28CC100D2EAD2 /* IntegrationLibraryTests.m */,
+				288463231FE28CC100D2EAD2 /* AvartaBehaviosecMappingTest.m */,
+				2884631B1FE28CC100D2EAD2 /* AvartaErrorManagerTest.m */,
+				2884631E1FE28CC100D2EAD2 /* AvartaFlowModelTest.m */,
+				288463221FE28CC100D2EAD2 /* AvartaSettingsManagerTest.m */,
+				288463211FE28CC100D2EAD2 /* AvartaWorkflowModelTest.m */,
+				288463201FE28CC100D2EAD2 /* WorkflowJSON.json */,
+				726659B02754B0DE002127EB /* AvartaIntegrationLibraryTests.m */,
+				288463141FE28C6200D2EAD2 /* Info.plist */,
+			);
+			path = AvartaIntegrationLibraryTests;
+			sourceTree = "<group>";
+		};
+		7D0306352241F5D900C9FA37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				725DF090270AD29C0070EBBD /* libc.tbd */,
+				725DF08E270AD2880070EBBD /* libz.tbd */,
+				725DF08C270AD2640070EBBD /* SystemConfiguration.framework */,
+				7D0306362241F5DA00C9FA37 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3EF5CB165D92414BF667CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		288462851FE283C600D2EAD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288462E71FE2844A00D2EAD2 /* AvartaCryptModel.h in Headers */,
+				288462C71FE2844A00D2EAD2 /* AvartaLibrarySettings.h in Headers */,
+				2854381020659CA30045EDB6 /* AvartaIntegrationLibrary.h in Headers */,
+				288462E31FE2844A00D2EAD2 /* AvartaLicenseProvider.h in Headers */,
+				288462ED1FE2844A00D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.h in Headers */,
+				288463041FE2864300D2EAD2 /* BaseMappingObject.h in Headers */,
+				288462D61FE2844A00D2EAD2 /* AvartaActivityType.h in Headers */,
+				288462EC1FE2844A00D2EAD2 /* AvartaUserScoreModel.h in Headers */,
+				2854381520659DAF0045EDB6 /* AvartaLocationManager.h in Headers */,
+				288462E61FE2844A00D2EAD2 /* AvartaBehaviosecData.h in Headers */,
+				288462CE1FE2844A00D2EAD2 /* AvartaFlowModel.h in Headers */,
+				2884630A1FE2870900D2EAD2 /* AvartaAppSettingsModel.h in Headers */,
+				288462F31FE2844A00D2EAD2 /* AvartaBehaviosecTarget.h in Headers */,
+				288462FA1FE284EB00D2EAD2 /* AvartaNetworkRequestManager.h in Headers */,
+				720FA21026933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.h in Headers */,
+				288462CA1FE2844A00D2EAD2 /* AvartaBehaviosecMapping.h in Headers */,
+				288462DC1FE2844A00D2EAD2 /* AvartaUserScoreManager.h in Headers */,
+				288462E11FE2844A00D2EAD2 /* AvartaLibraryHelper.h in Headers */,
+				288462CC1FE2844A00D2EAD2 /* AvartaSettingsWorkflowItem.h in Headers */,
+				288462C81FE2844A00D2EAD2 /* AvartaActivities.h in Headers */,
+				288462C91FE2844A00D2EAD2 /* AvartaAppVersionManager.h in Headers */,
+				288462EA1FE2844A00D2EAD2 /* AvartaErrorManager.h in Headers */,
+				288462CF1FE2844A00D2EAD2 /* AvartaInternalConstants.h in Headers */,
+				288462EE1FE2844A00D2EAD2 /* HTTPSessionManager.h in Headers */,
+				7DA27E492271962200FC566A /* ECEncryption.h in Headers */,
+				288462E51FE2844A00D2EAD2 /* AvartaLicenseOperatingSystem.h in Headers */,
+				288462D31FE2844A00D2EAD2 /* AvartaDeviceConfigurationModel.h in Headers */,
+				288462D81FE2844A00D2EAD2 /* AvartaSettingLicenseItem.h in Headers */,
+				288462F61FE2844A00D2EAD2 /* AvartaWorkflow.h in Headers */,
+				288462D71FE2844A00D2EAD2 /* AvartaInAuthIntegrationManager.h in Headers */,
+				288462E21FE2844A00D2EAD2 /* AvartaSettingsManager.h in Headers */,
+				288463061FE2864300D2EAD2 /* MappingProtocol.h in Headers */,
+				2884628D1FE283C600D2EAD2 /* IntegrationLibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		288462871FE283C600D2EAD2 /* AvartaIntegrationLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288462901FE283C600D2EAD2 /* Build configuration list for PBXNativeTarget "AvartaIntegrationLibrary" */;
+			buildPhases = (
+				288462831FE283C600D2EAD2 /* Sources */,
+				288462841FE283C600D2EAD2 /* Frameworks */,
+				288462851FE283C600D2EAD2 /* Headers */,
+				288462861FE283C600D2EAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvartaIntegrationLibrary;
+			productName = AvartaIntegrationLibrary;
+			productReference = 288462881FE283C600D2EAD2 /* AvartaIntegrationLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2884630F1FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288463181FE28C6200D2EAD2 /* Build configuration list for PBXNativeTarget "AvartaIntegrationLibraryTests" */;
+			buildPhases = (
+				2884630C1FE28C6200D2EAD2 /* Sources */,
+				2884630D1FE28C6200D2EAD2 /* Frameworks */,
+				2884630E1FE28C6200D2EAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288463171FE28C6200D2EAD2 /* PBXTargetDependency */,
+			);
+			name = AvartaIntegrationLibraryTests;
+			productName = AvartaIntegrationLibraryTests;
+			productReference = 288463101FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2884627F1FE283C600D2EAD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Dmitrii Babii";
+				TargetAttributes = {
+					288462871FE283C600D2EAD2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2884630F1FE28C6200D2EAD2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 288462821FE283C600D2EAD2 /* Build configuration list for PBXProject "AvartaIntegrationLibrary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"pt-BR",
+				"pt-PT",
+				es,
+				Base,
+			);
+			mainGroup = 2884627E1FE283C600D2EAD2;
+			productRefGroup = 288462891FE283C600D2EAD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288462871FE283C600D2EAD2 /* AvartaIntegrationLibrary */,
+				2884630F1FE28C6200D2EAD2 /* AvartaIntegrationLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288462861FE283C600D2EAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2854381820659E020045EDB6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884630E1FE28C6200D2EAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288463291FE28CC100D2EAD2 /* WorkflowJSON.json in Resources */,
+				288463281FE28CC100D2EAD2 /* AppSettingsJSON.json in Resources */,
+				288463261FE28CC100D2EAD2 /* BehaviosecJSON.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288462831FE283C600D2EAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288462E91FE2844A00D2EAD2 /* AvartaBehaviosecTarget.m in Sources */,
+				288462C51FE2844A00D2EAD2 /* AvartaLibraryHelper.m in Sources */,
+				288462D11FE2844A00D2EAD2 /* AvartaWorkflow.m in Sources */,
+				288462FB1FE284EB00D2EAD2 /* AvartaNetworkRequestManager.m in Sources */,
+				288462DE1FE2844A00D2EAD2 /* AvartaSettingLicenseItem.m in Sources */,
+				2854381420659DAF0045EDB6 /* AvartaLocationManager.m in Sources */,
+				7DA27E4A2271962200FC566A /* ECEncryption.m in Sources */,
+				288462E01FE2844A00D2EAD2 /* AvartaInternalConstants.m in Sources */,
+				288462DA1FE2844A00D2EAD2 /* AvartaActivityType.m in Sources */,
+				288462F41FE2844A00D2EAD2 /* HTTPSessionManager.m in Sources */,
+				288462D91FE2844A00D2EAD2 /* AvartaInAuthIntegrationManager.m in Sources */,
+				288462D21FE2844A00D2EAD2 /* AvartaFlowModel.m in Sources */,
+				288462F51FE2844A00D2EAD2 /* AvartaUserScoreManager.m in Sources */,
+				288463051FE2864300D2EAD2 /* BaseMappingObject.m in Sources */,
+				288462DD1FE2844A00D2EAD2 /* AvartaBehaviosecMapping.m in Sources */,
+				288462CD1FE2844A00D2EAD2 /* AvartaLicenseProvider.m in Sources */,
+				288462DF1FE2844A00D2EAD2 /* AvartaUserScoreModel.m in Sources */,
+				288462D01FE2844A00D2EAD2 /* AvartaSettingsWorkflowItem.m in Sources */,
+				288462E81FE2844A00D2EAD2 /* AvartaBehaviosecData.m in Sources */,
+				288462F11FE2844A00D2EAD2 /* AvartaErrorManager.m in Sources */,
+				288462DB1FE2844A00D2EAD2 /* AvartaAppVersionManager.m in Sources */,
+				2884630B1FE2870900D2EAD2 /* AvartaAppSettingsModel.m in Sources */,
+				288462E41FE2844A00D2EAD2 /* AvartaActivities.m in Sources */,
+				288462D51FE2844A00D2EAD2 /* AvartaSettingsManager.m in Sources */,
+				720FA21126933D2D00ED1D8D /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
+				288462F01FE2844A00D2EAD2 /* AvartaLicenseOperatingSystem.m in Sources */,
+				2854381120659CA30045EDB6 /* AvartaIntegrationLibrary.m in Sources */,
+				288462F21FE2844A00D2EAD2 /* AvartaDeviceConfigurationModel.m in Sources */,
+				288462C61FE2844A00D2EAD2 /* AvartaCryptModel.m in Sources */,
+				288462CB1FE2844A00D2EAD2 /* AvartaLibrarySettings.m in Sources */,
+				288462D41FE2844A00D2EAD2 /* AvartaAppSettingsModel+AvartaLibrarySettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884630C1FE28C6200D2EAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288463251FE28CC100D2EAD2 /* IntegrationLibraryTests.m in Sources */,
+				2884632B1FE28CC100D2EAD2 /* AvartaSettingsManagerTest.m in Sources */,
+				2884632A1FE28CC100D2EAD2 /* AvartaWorkflowModelTest.m in Sources */,
+				726659B12754B0DE002127EB /* AvartaIntegrationLibraryTests.m in Sources */,
+				288463271FE28CC100D2EAD2 /* AvartaFlowModelTest.m in Sources */,
+				288463241FE28CC100D2EAD2 /* AvartaErrorManagerTest.m in Sources */,
+				2884632C1FE28CC100D2EAD2 /* AvartaBehaviosecMappingTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288463171FE28C6200D2EAD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288462871FE283C600D2EAD2 /* AvartaIntegrationLibrary */;
+			targetProxy = 288463161FE28C6200D2EAD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2854381A20659E020045EDB6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2854381920659E020045EDB6 /* en */,
+				2854381B20659E0E0045EDB6 /* pt-BR */,
+				2854381C20659E140045EDB6 /* pt-PT */,
+				2854381D20659E190045EDB6 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2884628E1FE283C600D2EAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2884628F1FE283C600D2EAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		288462911FE283C600D2EAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 799T6DK3G9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = AvartaIntegrationLibrary/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/opt/libxml2/include/**",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AvartaIntegrationLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solusps.IntegrationLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		288462921FE283C600D2EAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 799T6DK3G9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = AvartaIntegrationLibrary/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/opt/libxml2/include/**",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AvartaIntegrationLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solusps.IntegrationLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		288463191FE28C6200D2EAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 799T6DK3G9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AvartaIntegrationLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solusps.integrationLibrary.AvartaIntegrationLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2884631A1FE28C6200D2EAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 799T6DK3G9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AvartaIntegrationLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solusps.integrationLibrary.AvartaIntegrationLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288462821FE283C600D2EAD2 /* Build configuration list for PBXProject "AvartaIntegrationLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2884628E1FE283C600D2EAD2 /* Debug */,
+				2884628F1FE283C600D2EAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288462901FE283C600D2EAD2 /* Build configuration list for PBXNativeTarget "AvartaIntegrationLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288462911FE283C600D2EAD2 /* Debug */,
+				288462921FE283C600D2EAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288463181FE28C6200D2EAD2 /* Build configuration list for PBXNativeTarget "AvartaIntegrationLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288463191FE28C6200D2EAD2 /* Debug */,
+				2884631A1FE28C6200D2EAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2884627F1FE283C600D2EAD2 /* Project object */;
+}

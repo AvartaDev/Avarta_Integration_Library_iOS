@@ -1,0 +1,6 @@
+framework module nuntius {
+  umbrella header "nuntius.h"
+
+  export *
+  module * { export * }
+}
